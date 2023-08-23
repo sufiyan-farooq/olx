@@ -1,0 +1,183 @@
+@font-face {
+    font-family: poopin;
+    src: url(images-font/Poppins-Regular.ttf);
+
+
+}
+*{
+    font-family: poopin;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header{
+    background-color: #f7f8f8;
+    padding: 20px;
+    padding-left: 80px;
+    text-transform: uppercase;
+    font-size: small;
+}
+a{
+    text-decoration: none
+    ;
+    color: black;
+}
+.nav-bar{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 2px;
+
+}
+.nav-bar a:hover{
+   color: #3a77ff;
+
+}
+.navbar-logo{
+    padding-top: 12px;
+    
+
+}
+.select-city{
+    padding: 15px;
+    width: 220px;
+    
+    border: 2px solid;
+}
+.select-city:hover{
+    border-color: #46aca9;
+    
+}
+.search{
+    padding: 15px;
+    width: 300px;
+
+    border: 2px solid;
+}
+.search:hover{
+    border-color: #46aca9;
+    
+}
+.fa-magnifying-glass{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 1px solid black;
+    
+    
+}
+.icon-chat{
+    padding-left: 10px;
+}
+.icon-notification{
+    padding-left: 10px;
+}
+.icon-profile{
+    padding-left: 10px;
+}
+.icon-arrow{
+    padding-left: 10px;
+}
+.sell{
+    background-color: white;
+    border-bottom: 6px solid #3e7efb
+    ;
+    border-left:6px solid #f8cd46
+    ;
+    border-top: 6px solid #1fe6d9
+    ;
+    border-right: 6px solid #f8cd46;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.nav-bottom {
+    padding: 20px;
+    padding-left: 90px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+
+
+}
+.catogries-list li{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: small;
+}
+.catogries-list li:hover{
+    color: #46aca9;
+    cursor: pointer;
+}
+.bold{
+    font-weight: bold;
+}
+
+
+
+
+.container{
+    width: 85vmin;
+position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    width: 1200px;
+    padding-top: 130px;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 10s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+.catogries h2{
+    padding-left: 80px;
+    font-weight: bolder;
+    
+}
+.catogries-items {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 25px;
+    padding-left: 40px;
+    margin: 15px ;
+}
+
+.catogries-items img{
+ width: 80px;
+}
+.card-mobile span{
+    color: #3a77ff;
+    position: absolute;
+    right: 10px;
+    font-size: large;
+}
